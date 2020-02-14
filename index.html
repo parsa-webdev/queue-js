@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+    <title>Queue JS</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <div class="img">
+                <a href="./index.html">
+                    <img src="./img/logo.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <nav>
+            <div class="links">
+                <a href="./index.html" id="home">home</a>
+                <a href="./features.html">features</a>
+                <a href="./documentation.html">documentation</a>
+                <input type="text" placeholder="Search">
+            </div>
+        </nav>
+    </header>
+    
+    <div class="hero">
+        <div class="container">
+            <div class="img">
+
+                <img src="./img/illustration.svg" alt="">
+            </div>
+            <div class="text">
+                <h2>THE HOT NEW</h2>
+                <h1>JAVASCRIPT FRAMEWORK</h1>
+                <p>Learn one way to build applications with Angular and reuse your code and abilities to build apps for
+                    any
+                    deployment target.</p>
+                <button>GET STARTED</button>
+            </div>
+        </div>
+    </div>
+    <div class="example">
+        <h1 class="heading">EXAMPLE CODE</h1>
+        <div class="container">
+            <div class="text">
+                <h2>A Simple Component</h2>
+                <p>Queue components implement a render() method that takes input data and returns what to display. This
+                    example uses an XML-like syntax called JSX. Input data that is passed into the component can be
+                    accessed by render() via this.props.</p>
+                <p class="bold-text">This example uses an XML-like syntax called JSX. Input data that is passed into the
+                    component can be
+                    accessed by render() via this.props.</p>
+            </div>
+            <div class="code-editor">
+                <div class="code">
+                    <h2>Code</h2>
+                    <pre>
+            <code>
+<span class="b">class</span> <span class="y">HelloMessage</span> <span class="b">extends</span> Queue.Component {
+    <span class="y">render</span>() {
+        <span class="p">return</span> (
+        <span class="b">&lt;div&gt;</span>
+            Hello {<span class="b">this</span>.props.name}
+        <span class="b">&lt;/div&gt;</span>
+        );
+    }
+    }
+    
+    QueueDOM.<span class="y">render</span>(
+        <span class="b">&lt;HelloMessage</span> name=<span class="o">"John"</span> <span class="b">/&gt;</span>,
+        document.<span class="y">getElementById</span>(<span class="o">'hello-example'</span>)); 
+            </code>
+        </pre>
+                </div>
+                <div class="result">
+                    <h2>Result</h2>
+                    <p>Hello John</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        Released under the MIT License
+        <br>
+        Copyright © 2014-2019
+    </footer>
+</body>
+
+</html>
